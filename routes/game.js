@@ -116,6 +116,9 @@ function gameRoutes(app) {
       setTimeout(function () {
         isGameOver = false;
         goodAnswers = 0;
+        callToAFriendUsed = false;
+        questionToTheCrowdUsed = false;
+        halfOnHalfUsed = false;
       }, 1000);
     }
 
