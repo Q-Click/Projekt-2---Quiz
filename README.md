@@ -1,4 +1,16 @@
 # Projekt-2---Quiz
 Simple express quiz app
 
-Download repository then run by typing in terminal node app.js
+Instructions:
+
+Clone repo
+
+Install dependencies - npm install
+
+Start the server - node app.js
+
+Navigate to localhost:3000 in the browser
+
+Enjoy!
+
+Note: Use a node version <= 12
