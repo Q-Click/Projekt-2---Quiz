@@ -6,6 +6,7 @@ function fillQuestionElements(data) {
   if (data.winner === true) {
     gameBoard.style.display = "none";
     h2.innerText = "WYGRAŁEŚ/AŚ!!!";
+    replay.style.visibility = "visible";
     return;
   }
 
