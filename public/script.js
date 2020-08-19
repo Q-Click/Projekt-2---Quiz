@@ -11,6 +11,7 @@ function fillQuestionElements(data) {
 
   if (data.loser === true) {
     gameBoard.style.display = "none";
+    replay.style.visibility = "visible";
     h2.innerText = "Nie poszło tym razem, spróbuj ponownie.";
     return;
   }
@@ -59,6 +60,11 @@ for (const button of buttons) {
     sendAnswer(answerIndex);
   });
 }
+
+const replay = document.querySelector("#replay");
+replay.addEventListener("click", () => {
+  location.reload();
+});
 
 const tipDiv = document.querySelector("#tip");
 
