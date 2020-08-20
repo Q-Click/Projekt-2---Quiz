@@ -119,7 +119,7 @@ function gameRoutes(app) {
         callToAFriendUsed = false;
         questionToTheCrowdUsed = false;
         halfOnHalfUsed = false;
-      }, 10);
+      }, 100);
     }
 
     res.json({
